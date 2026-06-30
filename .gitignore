@@ -1,0 +1,39 @@
+# ── Build output ─────────────────────────────────────────
+build/
+out/
+
+# ── MSVC intermediates ──────────────────────────────────
+*.exe
+*.pdb
+*.obj
+*.ilk
+*.exp
+*.lib
+*.dll
+
+# ── Visual Studio ───────────────────────────────────────
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# ── CMake ───────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+
+# ── IDE / Editor ────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.sisyphus/
+
+# ── OS ──────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+
+# ── Third-party libraries ───────────────────────────────
+third_party/
